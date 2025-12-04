@@ -6,7 +6,6 @@ import {
   MdTrendingUp,
   MdAccessTime,
   MdSecurity,
-  MdFlexible,
   MdCheckCircle,
   MdSend
 } from "react-icons/md";
@@ -95,11 +94,6 @@ function CreditDetail() {
             <MdSecurity className="feature-icon" />
             <div><strong>Seguro incluido</strong></div>
             <div style={{ fontSize: "0.9rem", color: "var(--gray)" }}>Protección completa</div>
-          </div>
-          <div className="feature-item">
-            <MdFlexible className="feature-icon" />
-            <div><strong>Flexibilidad</strong></div>
-            <div style={{ fontSize: "0.9rem", color: "var(--gray)" }}>Plazos ajustables</div>
           </div>
           <div className="feature-item">
             <MdCheckCircle className="feature-icon" />
